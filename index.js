@@ -373,7 +373,7 @@ const styles = StyleSheet.create({
     ...Platform.select({
       android: {
         borderBottomColor: 'lightgray',
-        borderBottomWidth: StyleSheet.hairlineWidth
+        borderBottomWidth: 0
       }
     }),
     flex: 1,
